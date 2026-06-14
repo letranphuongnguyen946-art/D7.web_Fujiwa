@@ -2,46 +2,45 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Tin Tức & Sức Khỏe - Fujiwa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin Tức Sức Khỏe - Fujiwa Việt Nam</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
-        .contact-info { background: #004085; color: white; padding: 10px; text-align: center; font-size: 14px; }
-        header { background: #0056b3; color: white; padding: 20px; text-align: center; }
-        nav { background: #333; text-align: center; padding: 10px; }
-        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
-        nav a:hover { color: #ffc107; }
-        .news-card { max-width: 800px; margin: 20px auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); line-height: 1.6; }
-        .news-img { width: 100%; max-height: 350px; object-fit: cover; border-radius: 6px; margin: 10px 0; }
-        .source { font-style: italic; color: #666; font-size: 13px; margin-top: 15px; display: block; }
-        footer { background: #333; color: white; text-align: center; padding: 20px; margin-top: 50px; }
+        :root { --blue: #0066cc; --white: #ffffff; --gray: #f4f4f4; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: var(--gray); color: #333; line-height: 1.6; }
+        header { background: var(--blue); color: var(--white); padding: 15px; text-align: center; }
+        nav { background: #333; padding: 10px; text-align: center; position: sticky; top: 0; z-index: 999; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        nav a:hover { color: #cbdfff; }
+        .container { max-width: 800px; margin: 30px auto; padding: 0 20px; }
+        .article { background: #fff; padding: 25px; border-radius: 8px; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+        .article h2 { color: var(--blue); margin-top: 0; }
+        .source-box { background: #eef5fc; padding: 12px; border-left: 5px solid var(--blue); font-style: italic; margin-top: 20px; }
+        footer { background: #222; color: #ccc; text-align: center; padding: 30px 20px; margin-top: 60px; font-size: 0.9em; }
     </style>
 </head>
 <body>
-    <div class="contact-info">📞 Hotline: 1900 8462 | ✉️ Email: D7@fujiwavietnam.vn</div>
-    <header><h1>TIN TỨC & BÀI VIẾT KHOA HỌC</h1></header>
-    <nav>
-        <a href="/letranphuongnguyen946-D7.web_Fujiwa/index.html">Trang Chủ</a>
-        <a href="/letranphuongnguyen946-D7.web_Fujiwa/products.html">Sản Phẩm</a>
-        <a href="/letranphuongnguyen946-D7.web_Fujiwa/about.html">Giới Thiệu</a>
-        <a href="/letranphuongnguyen946-D7.web_Fujiwa/news.html">Tin Tức</a>
-    </nav>
-
-    <div class="news-card">
-        <h2>Bài viết 1: Nước ion kiềm hỗ trợ cải thiện các bệnh lý về đường ruột như thế nào?</h2>
-        <!-- Hình ảnh minh họa bài viết sức khỏe -->
-        <img class="news-img" src="https://fujiwavietnam.com/wp-content/uploads/2021/05/loi-ich-nuoc-ion-kiem.jpg" alt="Lợi ích nước ion kiềm">
-        <p>Theo các nghiên cứu lâm sàng, việc sử dụng nước ion kiềm có độ pH ổn định giúp trung hòa lượng axit dạ dày dư thừa đáng kể, từ đó hỗ trợ tích cực đối với các triệu chứng ợ chua, đầy bụng khó tiêu...</p>
-        <span class="source">📌 Nguồn bài viết: Tổng hợp dữ liệu từ trang chủ Fujiwa Vietnam (fujiwavietnam.com) và chuyên mục Sức Khỏe đời sống.</span>
+    <header>
+        <h1>FUJIWA VIỆT NAM</h1>
+        <p>Hotline: 1900 8462 | Email: <D7>@fujiwavietnam.vn</p>
+    </header>
+<nav>
+    <a href="index.html">Trang Chủ</a>
+    <a href="products.html">Sản Phẩm</a>
+    <a href="about.html">Giới Thiệu</a>
+    <a href="news.html">Tin Tức Sức Khỏe</a>
+    <a href="order.html">Đặt Hàng / Liên Hệ</a>
+</nav>
+    <div class="container">
+        <div class="article">
+            <h2>Tác dụng của nước ion kiềm đối với hệ tiêu hóa</h2>
+            <p>Nước ion kiềm mang tính kiềm tự nhiên như rau xanh, có khả năng trung hòa nhanh lượng axit dư thừa trong dạ dày, giúp làm dịu các triệu chứng cồn cào, trào ngược và hỗ trợ đắc lực cho hoạt động của đường ruột.</p>
+            <div class="source-box">
+                <strong>Nguồn tổng hợp:</strong> Bài viết được tổng hợp từ website chính thức của Fujiwa Việt Nam và các tài liệu nghiên cứu y khoa về nước điện giải.
+            </div>
+        </div>
     </div>
-
-    <div class="news-card">
-        <h2>Bài viết 2: Bí quyết bù nước nhanh chóng cho người tập luyện thể thao</h2>
-        <!-- Hình ảnh minh họa bù nước thể thao -->
-        <img class="news-img" src="https://fujiwavietnam.com/wp-content/uploads/2021/06/bu-nuoc-the-thao.jpg" alt="Bù nước thể thao">
-        <p>Nhờ cấu trúc cụm phân tử nước siêu nhỏ, nước điện giải ion kiềm có khả năng thẩm thấu vào tế bào nhanh hơn gấp 5 lần so với nước thông thường, giúp cơ thể phục hồi năng lượng tức thì khi vận động nặng.</p>
-        <span class="source">📌 Nguồn bài viết: Tổng hợp thông tin khoa học từ Viện Dinh Dưỡng Quốc Gia.</span>
-    </div>
-
-    <footer><p>Hotline: 1900 8462 | Email: D7@fujiwavietnam.vn</p></footer>
+    <footer>
+        <p>© 2026 Đại lý Fujiwa | Hotline: 1900 8462 | Email: <D7>@fujiwavietnam.vn</p>
+    </footer>
 </body>
 </html>
