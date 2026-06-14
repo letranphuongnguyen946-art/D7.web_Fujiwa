@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Danh Mục Sản Phẩm - Fujiwa</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+        .contact-info { background: #004085; color: white; padding: 10px; text-align: center; font-size: 14px; }
+        header { background: #0056b3; color: white; padding: 20px; text-align: center; }
+        nav { background: #333; text-align: center; padding: 10px; }
+        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        nav a:hover { color: #ffc107; }
+        .container { max-width: 1200px; margin: 20px auto; padding: 20px; display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+        .product-card { background: white; border: 1px solid #ddd; border-radius: 8px; width: 280px; padding: 15px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .product-card img { max-width: 100%; height: 200px; object-fit: contain; }
+        .old-price { color: #888; text-decoration: line-through; font-size: 14px; margin-top: 10px; }
+        .price { color: red; font-weight: bold; font-size: 20px; margin: 5px 0 15px 0; }
+        .btn-buy { background: #ffc107; color: black; border: none; padding: 10px 20px; font-weight: bold; cursor: pointer; border-radius: 5px; text-decoration: none; display: inline-block; }
+        footer { background: #333; color: white; text-align: center; padding: 20px; margin-top: 50px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="contact-info">📞 Hotline: 1900 8462 | ✉️ Email: D7@fujiwavietnam.vn</div>
+    <header><h1>TẤT CẢ SẢN PHẨM PHÂN PHỐI CHÍNH HÃNG</h1></header>
+    <nav>
+        <a href="index.html">Trang Chủ</a>
+        <a href="products.html">Sản Phẩm</a>
+        <a href="about.html">Giới Thiệu</a>
+        <a href="news.html">Tin Tức</a>
+    </nav>
+
+    <div class="container">
+        <!-- Sản phẩm 1 -->
+        <div class="product-card">
+            <img src="https://fujiwavietnam.com/wp-content/uploads/2021/05/thung-350ml.png" alt="Fujiwa 350ml">
+            <h3>Nước Ion Kiềm Fujiwa 350ml</h3>
+            <p>Quy cách: Thùng 24 chai</p>
+            <div class="old-price">Giá gốc: 156.000 đ</div>
+            <div class="price">148.200 đ <span style="font-size: 12px; color: green;">(-5%)</span></div>
+            <a href="order.html?product=Fujiwa-350ml" class="btn-buy">Đặt mua</a>
+        </div>
+
+        <!-- Sản phẩm 2 -->
+        <div class="product-card">
+            <img src="https://fujiwavietnam.com/wp-content/uploads/2021/05/thung-450ml.png" alt="Fujiwa 450ml">
+            <h3>Nước Ion Kiềm Fujiwa 450ml</h3>
+            <p>Quy cách: Thùng 24 chai</p>
+            <div class="old-price">Giá gốc: 168.000 đ</div>
+            <div class="price">159.600 đ <span style="font-size: 12px; color: green;">(-5%)</span></div>
+            <a href="order.html?product=Fujiwa-450ml" class="btn-buy">Đặt mua</a>
+        </div>
+
+        <!-- Sản phẩm 3 -->
+        <div class="product-card">
+            <img src="https://fujiwavietnam.com/wp-content/uploads/2021/05/binh-19l.png" alt="Fujiwa 19L">
+            <h3>Nước Ion Kiềm Fujiwa Bình 19L</h3>
+            <p>Quy cách: Bình vòi / Úp</p>
+            <div class="old-price">Giá gốc: 65.000 đ</div>
+            <div class="price">61.750 đ <span style="font-size: 12px; color: green;">(-5%)</span></div>
+            <a href="order.html?product=Fujiwa-19L" class="btn-buy">Đặt mua</a>
+        </div>
+    </div>
+    <footer><p>Hotline: 1900 8462 | Email: D7@fujiwavietnam.vn</p></footer>
+</body>
+</html>
